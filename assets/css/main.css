@@ -3174,7 +3174,7 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px rgba(255, 255, 255, 0.15);
+				border: solid 1px rgba(10, 10, 10, 0.15);
 				border-left-width: 0;
 				border-top-width: 0;
 			}
@@ -3236,7 +3236,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color:#ada996;;
 		}
 
 		.wrapper.style1-alt {
@@ -3244,7 +3244,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #8b7e52;
 		}
 
 		.wrapper.style2-alt {
@@ -3520,7 +3520,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #fbff03;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3733,11 +3733,11 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgb(247, 247, 247);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.9em;
 			font-weight: bold;
-			letter-spacing: 0.25em;
+			letter-spacing: 0.1em;
 			line-height: 1.75;
 			outline: 0;
 			padding: 1.35em 0;
@@ -3757,7 +3757,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: rgb(247, 247, 247);
 			}
 
 			#sidebar nav a:after {
@@ -3773,11 +3773,11 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: #8b7e52;
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: #8b7e52;
 			}
 
 				#sidebar nav a.active:after {
@@ -3853,7 +3853,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #000000;
 						}
 
 		}
