@@ -95,7 +95,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #e0dd32;
+		background: linear-gradient(to right, #959799, #42566b);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3302,15 +3302,17 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color:#ada996;;
+			background: linear-gradient(to right, #6f9fbe, #42566b);
 		}
 
 		.wrapper.style1-alt {
-			background-color: #ada996;
+			background: linear-gradient(to right, #959799, #42566b);
+			background-image: url("images/intro.svg");
 		}
 
 		.wrapper.style2 {
-			background-color: #8b7e52;
+			background: linear-gradient(to right, #bdc3c7, #2c3e50);
+			background-image: url("images/intro.svg");
 		}
 
 		.wrapper.style2-alt {
@@ -3318,7 +3320,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background: linear-gradient(to right, #6f9fbe, #2c3e50);
 		}
 
 		.wrapper.style3-alt {
