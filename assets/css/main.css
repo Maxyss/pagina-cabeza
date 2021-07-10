@@ -429,6 +429,22 @@ input {
 	opacity: 0;
 }
 
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #e0dd32;
+	opacity: 1;
+}
+
+
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #f12121;
+}
+
 .formulario__btn {
 	margin-top: 20px;
 	height: 45px;
@@ -445,12 +461,19 @@ input {
 	display: none;
 }
 
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
 .formulario__input-error {
 	font-size: 12px;
 	margin-bottom: 0;
 	display: none;
 }
 
+.formulario__input-error-activo {
+	display: block;
+}
 
 	form {
 		margin: 0 0 2em 0;
