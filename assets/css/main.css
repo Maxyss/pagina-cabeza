@@ -1472,6 +1472,11 @@ input {
 				display: none;
 			}
 
+			.formulario__validacion-estado {
+				margin-left: 90%;
+			}
+				
+
 		}
 
 /* Intro */
